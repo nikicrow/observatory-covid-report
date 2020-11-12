@@ -4,6 +4,14 @@
 
 The data is from GA 360 pulled through BigQuery using SQL commands. It is then imported as csv into Python or R for visulation. In this github repo all of the python, R and SQL code is stored.
 
+## Environment variables
+
+In order to run the code please define an environment variable as defined below with the working directory for with a 'data' folder for the R files.
+
+`WORKING_DIRECTORY=`
+
+## Explanation of scripts
+
 There are 6 general topics that we looked at are as follows:
 
 ### 1. User interest
