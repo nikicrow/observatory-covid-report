@@ -1,10 +1,10 @@
 # COVID Report 
-##The Observatory Team - Digital Transformation Agency
+## The Observatory Team - Digital Transformation Agency
 #### The purpose of this analysis is to observe the changes in user behaviour for the past year through coronavirus.
 
 The data is from GA 360 pulled through BigQuery using SQL commands. It is then imported as csv into Python or R for visulation. In this github repo all of the python, R and SQL code is stored.
 
-There are 6 general topics that we looked at are as follows:
+The 6 topics that we looked at are as follows:
 1. User interest
 This script was used to categorise domains and then to group the data into each category for visulation. 
  - ui_domains_and_dates.sql
