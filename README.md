@@ -20,7 +20,9 @@ This script was used to categorise domains and then to group the data into each 
  - ui_code.R
  - ui_Coxcomb_nightingale.ipynb
  - top10domains_code.R
- 
+There is a second blog focusing solely on this and the code for this is in the file user_interest_blog2:
+ - ui_code_stl_with_split.R
+
 ### 2. New and returning users
 This script was used to visualise the behaviour of new and returning users to the government domains.
  - new_return.sql
@@ -49,4 +51,4 @@ This script was used to visualise the devices used for all the government domain
  - devices.sql
  - deviceds_code.R
 
-For the final blog check out [observatory.service.gov.au](observatory.service.gov.au)
+For the final blog check out [Exploring use of .gov.au during COVID19](https://www.dta.gov.au/blogs/exploring-use-govau-during-covid-19)
