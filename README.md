@@ -4,36 +4,51 @@
 
 The data is from GA 360 pulled through BigQuery using SQL commands. It is then imported as csv into Python or R for visulation. In this github repo all of the python, R and SQL code is stored.
 
-The 6 topics that we looked at are as follows:
-1. User interest
+## Environment variables
+
+In order to run the code please define an environment variable as defined below with the working directory for with a 'data' folder for the R files.
+
+`WORKING_DIRECTORY=`
+
+## Explanation of scripts
+
+There are 6 general topics that we looked at are as follows:
+
+### 1. User interest
 This script was used to categorise domains and then to group the data into each category for visulation. 
  - ui_domains_and_dates.sql
  - ui_code.R
  - ui_Coxcomb_nightingale.ipynb
  - top10domains_code.R
-2. New and returning users
+There is a second blog focusing solely on this and the code for this is in the file user_interest_blog2:
+ - ui_code_stl_with_split.R
+
+### 2. New and returning users
 This script was used to visualise the behaviour of new and returning users to the government domains.
  - new_return.sql
  - new_return_users_streamgraph.ipynb
  - return_rates_code.R
-3. Location of users in Australia by state
+ 
+### 3. Location of users in Australia by state
 This script was used to visualise the location of users by state to the government domains.
  - states_data.sql
  - states_code.R
  - states_data_streamgraph.ipynb
-4. Locations of users outside of Australia by sub-continent
+ 
+### 4. Locations of users outside of Australia by sub-continent
 This script was used to visualise the location of users by sub-continent to the government domains.
  - subcons_data.sql
  - subcon_bar_chart_race.ipynb
  - bcr_subcon_alldom.mp4
-5. Browsers 
+ 
+### 5. Browsers 
 This script was used to visualise the browsers used for all the government domains.
  - browser.sql
  - browser_code.R
-6. Devices
+ 
+### 6. Devices
 This script was used to visualise the devices used for all the government domains.
  - devices.sql
  - deviceds_code.R
 
-
-For the final blog check out observatory.gov.au
+For the final blog check out [Exploring use of .gov.au during COVID19](https://www.dta.gov.au/blogs/exploring-use-govau-during-covid-19)
